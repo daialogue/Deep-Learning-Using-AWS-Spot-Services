@@ -6,7 +6,7 @@ This code was used to produce the article "Clustering Low-Cost, Cloud-Based Serv
 This paper advocates the usage of available cloud based services for intensive parallel floating point computations, based on clusters of servers installed with Graphical Processing Units (GPUs), in order to run low-cost, High Performance Computing (HPC) tasks.
 It is described a cluster of multiple servers installed with GPU units and running open-source software which works as an easy to scale, low cost platform with centralized Master-Slave control, able to turn on/off the Slaves (GPU server machines) as needed.
 
-###Used Technologies:
+### Used Technologies:
 
 - **Amazon Web Services (AWS) with AWS Spot Services**
 AWS Spot Services offer a new modality which presents much lower prices. Essentially it consists of serving unused processing power and its price can be much lower than of a normal, reserved, GPU server instances [6].
