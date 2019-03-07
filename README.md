@@ -1,5 +1,5 @@
 
-#Deep Learning over GPU Servers at AWS
+# Deep Learning over GPU Servers at AWS
 
 This code was used to produce the article "Clustering Low-Cost, Cloud-Based Servers to Solve Intensive, Parallel Computations" by Nuno B. Bras and Goncalo Valadao from Instituto de Telecomunicac ̧o ̃es (IT) and Universidade Auto ́noma de Lisboa (UAL) Lisboa, Portugal.
 
@@ -24,7 +24,7 @@ Send direct iPython parallel messages from the master to any set of engines inst
  Theano is always used, even when GPUs are not available, and Theano itself chooses what should be used: CPU or GPUs.
 
  
-###Underlying Problem
+### Underlying Problem
 
 The underlying problem is a character classification problem, over the MNIST dataset. This problem was often used to benchmark algorithms because it was already deeply studied. The MNIST has a training set of 60 000 characters, a testing set of 10 000 characters, having each image 28 × 28 pixels.
 Here, the problem is solved using a deep neural network described in [14], composed of the following layers:
